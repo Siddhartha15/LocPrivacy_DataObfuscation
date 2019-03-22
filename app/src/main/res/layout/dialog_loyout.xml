@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="200dp"
+        android:text="Enter the location"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textColor="#000"
+        android:layout_height="50dp" />
+    <EditText
+        android:id="@+id/pt1"
+        android:layout_width="200dp"
+        android:hint="Latitude"
+        android:inputType="numberDecimal|numberSigned"
+        android:layout_height="50dp" />
+
+    <EditText
+        android:id="@+id/pt2"
+        android:layout_marginTop="20dp"
+        android:layout_width="200dp"
+        android:inputType="numberSigned|numberDecimal"
+        android:hint="Longitude"
+        android:layout_height="50dp" />
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:weightSum="10">
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:text="cancel"/>
+        <Button
+            android:id="@+id/ok"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:text="ok"/>
+    </LinearLayout>
+
+</LinearLayout>
