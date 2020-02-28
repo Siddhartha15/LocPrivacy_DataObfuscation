@@ -1,5 +1,5 @@
 # Location Privacy using Data Obfuscation
----
+
 ### Published in: TENCON 2019 - 2019 IEEE Region 10 Conference (TENCON)
 >### Date of Conference: 17-20 Oct. 2019
 >### INSPEC Accession Number: 19250095
