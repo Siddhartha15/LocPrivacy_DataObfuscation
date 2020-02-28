@@ -5,7 +5,7 @@
     INSPEC Accession Number: 19250095
     DOI: 10.1109/TENCON.2019.8929236
     Publisher: IEEE
-    Conference Location: Kochi, India, India
+    Conference Location: Kochi, Kerala, India
 ---
 ### Authors: 
     Siddhartha M
